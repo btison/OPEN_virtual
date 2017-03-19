@@ -25,16 +25,16 @@
 The following binary files must be added to the playbook, to the `files` directory of the role:
 
 * Role `bpms` :
-** `jboss-bpmssuite-6.3.0.GA-redhat-4-deployable-eap6.x.zip`
-** `jboss-eap-6.4.7-full-build.zip`
+** `jboss-bpmsuite-6.4.0.GA-redhat-2-deployable-eap7.x.zip`
+** `jboss-eap-7.0.3-full-build.zip`
 * Role `rhsso` :
 ** `rh-sso-7.0.0.zip`
 * Role `rhsso-adapter` :
-** `rh-sso-7.0.0-eap6-adapter.zip`
+** `rh-sso-7.0.0-eap7-adapter.zip`
 * Role `maven`
 ** `apache-maven-3.2.5-bin.zip`
 * Role `oc`
-** `oc version 3.2.0.44`
+** `oc version 3.3.1.17`
 * Role `jxplorer`
 ** `jxplorer-3.3.1.2-project.zip`
 

@@ -199,7 +199,7 @@ then
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.nio.git.ssh.host=$BIND_ADDRESS\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.ext.security.management.api.userManagementServices=WildflyCLIUserManagementService\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.ext.security.management.wildfly.cli.host=localhost\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
-  echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.ext.security.management.wildfly.cli.port=9999\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
+  echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.ext.security.management.wildfly.cli.port=9990\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.guvnor.m2repo.dir=$BPMS_DATA_DIR/m2/repository\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.nio.git.dir=$BPMS_DATA_DIR/$REPO_DIR\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
   echo "JAVA_OPTS=\"\$JAVA_OPTS -Dorg.uberfire.metadata.index.dir=$BPMS_DATA_DIR/$REPO_DIR\"" >> $BPMS_HOME/$BPMS_ROOT/bin/standalone.conf
